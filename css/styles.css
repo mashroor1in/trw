@@ -71,11 +71,30 @@ body{
 
 
 .navbar-header .navbar-brand {
-    color:red;
-    font-weight: 700;
-	font-size: 24px;
-	font-family: "Courier";
+    color:white;
+    font-weight: 100;
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+
 } 	
+
+
+#mainNavbar > ul:nth-child(1) > li:nth-child(1) > a,
+#mainNavbar > ul:nth-child(1) > li:nth-child(2) > a
+{
+	color: white;
+	font-family: 'Gruppo', cursive;
+	font-size: 20px;
+
+}
+#mainNavbar > ul.nav.navbar-nav.navbar-right > li > a > span
+{
+	color: white;
+}
+
+#mainNavbar > ul.nav.navbar-nav.navbar-right > li > ul{
+	background-color: rgba(128, 128, 128, 0);
+}
 
 
 
